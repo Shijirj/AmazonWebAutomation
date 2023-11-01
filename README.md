@@ -16,7 +16,7 @@ mvn clean test
 ## Make sure you have following:
 
 Java (version > 11)
-Apache Maven (version > 3.0.0)
+Maven (version > 3.0.0)
 Chrome browser installed (the WebDriver manager will download the appropriate driver for your Chrome version)
 Please note that this configuration has been tested on Windows. You can also modify the browser used in the Driver class if needed.
 
