@@ -3,7 +3,7 @@
 This project is a Java-based test automation framework using **Selenium, Cucumber, and JUnit** for automating tests on Amazon's website. It covers a simple test scenario to demonstrate how to use these tools in a test automation project.
 
 ## Report 
-![Cucumber Report](src/test/java/testResult/Screenshot 2023-11-01 141506.png)
+![Cucumber Report](SeleniumCucumberJUnit/src/test/java/testResult/Screenshot 2023-11-01 141506.png)
 ## Running the Scenarios
 
 To execute the automated scenarios, use the following command in your terminal:
