@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.shijir.testrunner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.shijir.testrunner.CukesRunner
+com.shijir.testrunner.CukesRunner.initializationError  Time elapsed: 0.001 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Users/shijr/Desktop/AmazonWebAutomation/SeleniumCucumberJUnit/src/test/java/resource/features/amazon.feature
+(4:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Background: User in the Amazon homepage adds "2" hats for men to Cart'
+(5:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Given the user is on the Amazon homepage'
+(6:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And the user searches for "Green Water Bottle"'
+(7:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And the user adds the first product appearing to Cart with quantity 2'
+(9:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: Price and quantity of a product in Cart'
+(10:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When the user opens the Cart'
+(11:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Then the subtotal price in Cart should be correct'
+(12:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And the quantity in Cart should be correct'
+(14:3): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'Scenario: Reduce quantity of a product in Cart'
+(15:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'When the user opens the Cart'
+(16:5): expected: #TagLine, #RuleLine, #Comment, #Empty, got 'And the user updates the quantity to 1 in Cart'
+
