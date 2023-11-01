@@ -9,17 +9,8 @@ To execute the automated scenarios, use the following command in your terminal:
 ```bash
 mvn clean test
 
-**Test Scenario**
-The test scenario covers the following steps:
 
-Go to Amazon.
-Search for "Green water bottle."
-Add the first hat appearing in the search results to the cart with a quantity of 2.
-Open the cart and assert that the total price and quantity are correct.
-Reduce the quantity from 2 to 1 in the cart for the item selected in step 3.
-Assert that the total price and quantity have been correctly updated.
-Setting up the Environment
-To run this project, ensure that the following tools are installed on your system:
+## Make sure you have following:
 
 Java (version > 11)
 Apache Maven (version > 3.0.0)
