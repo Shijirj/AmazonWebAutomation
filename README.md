@@ -7,7 +7,7 @@ This project is a Java-based test automation framework using **Selenium, Cucumbe
 To execute the automated scenarios, use the following command in your terminal:
 
 ```bash
-mvn clean test
+mvn clean test ```
 
 
 ## Make sure you have following:
